@@ -42,6 +42,9 @@ const theme = {
   },
   typography: {
     fontFamily: 'Kumbh Sans'
+  },
+  container: {
+    desktop: '1110px'
   }
 };
 
