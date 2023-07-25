@@ -17,7 +17,7 @@ type JobsAction = {
   };
 };
 
-type JobState = {
+export type JobState = {
   jobs: Job[] | Array<void>;
 };
 
