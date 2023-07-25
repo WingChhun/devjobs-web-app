@@ -2,11 +2,16 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import Home from './views/Home';
+import JobDetails from './views/JobDetails';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />
+  },
+  {
+    path: '/:id',
+    element: <JobDetails />
   }
 ]);
 
